@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.nav {
+  height: 180vw;
+  background-color: white;
+  text-align: center;
+  background-color: #83ae9b;
+}
+
+div.nav button {
+  background-color: transparent;
+  padding: 3px;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  color: rgb(0, 0, 0);
+  margin-top: 2vw;
+  border-radius: 5px;
+  border: solid black 2px;
+  margin-right: 2vw;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+div.nav button:hover {
+  transform: scale(1.1);
+  color: black;
+}
